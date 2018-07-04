@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Christina Tsangouri</title>
+    <!-- Meta -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" rel="stylesheet" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles-7.css">
+
+</head> 
+
+<body>
+    
+    <header class="header">
+        <div class="top-bar container-fluid">
+            <div class="actions">
+<!--                 <a class="btn d-none d-md-inline-block" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a> -->
+<!--                 <a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a> -->
+            </div><!--//actions-->
+            <ul class="social list-inline">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/christina-tsangouri-849972a8"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a href="www.github.com/christinatsan"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+            </ul><!--//social-->
+        </div><!--//top-bar-->
+        
+        <div class="intro">
+            <div class="container">
+                <img style="border-radius: 50%" class="profile-image" src="https://github.com/christinatsan/christinatsan.github.io/blob/master/img/me.jpg?raw=true" alt="">
+                <h1 class="name text-center">Christina Tsangouri</h1>
+                <div class="title text-center">software developer, researcher and life-long learner 😀</div>
+                <div class="profile">
+                    <p>I'm a recent graduate with a Bachelors in Computer Engineering and a minor in Mathematics. I'm passionate about software engineering, computer vision, and particularly in applications in assistive and health tech.
+                    <br><br>
+                    I have launched 3 iOS apps on the App Store, developed a myriad more prototypes & demo apps in Android & iOS, web apps, co-authored 5 journal and conference publications, and co-founded a startup whose product was a ML-based face expression game for children with autism.</p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
+        
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:christinatsangouri@gmail.com">christinatsangouri@gmail.com</a></li>
+                    <li class="website list-inline-item"><i class="fa fa-globe"></i><a href="#" target="_blank">www.github.com/christinatsan</a></li>
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
+        
+        <div class="page-nav-space-holder d-none d-md-block">
+            <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+                <div class="container">
+                    <ul id="page-nav" class="nav page-nav list-inline">
+<!--                         <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experiences</a></li>
+ -->                        <!-- <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li> -->
+                        <li class="nav-item"><a class="scrollto nav-link" href="#portfolio-section">Portfolio</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#publications-section">Publications</a></li>
+                        <li class="nav-item"><a class="scrollto nav-link" href="#contact-section">Contact</a></li>
+                    </ul><!--//page-nav-->
+                </div>
+            </div><!--//page-nav-wrapper-->
+        </div>
+        
+    </header><!--//header-->
+
+
+    
+    <div class="wrapper container">
+
+<!--         <section id="education-section" class="education-section section">
+            <h2 class="section-title">Education</h2>
+            <div class="row">
+                <div class="item col-12 col-md-4">
+                    <div class="item-inner">
+                        <h3 class="degree">BEng Computer Enngineering</h3>
+                        <div class="education-body">
+                            City University of New York
+                        </div>
+                        <div class="time">2013 - 2017</div>
+                        <div class="desc">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section> -->
+
+        
+        <section id="portfolio-section" class="portfolio-section section">
+
+
+
+            <h2 class="section-title">Portfolio</h2>
+            <ul id="filters" class="filters clearfix">
+                <li class="type active" data-filter="*">All</li>
+                <li class="type" data-filter=".health">Health Tech</li>
+                <li class="type" data-filter=".assistive">Assistive Tech</li>
+                <li class="type" data-filter=".recommender">Recommenders</li>
+                <li class="type" data-filter=".other">Desktop Software</li>
+            </ul><!--//filters-->
+            <div class="items-wrapper isotope row">
+                 <div class="item recommender col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">Podcast Recommender</a></h3>
+                            <div class="meta">Topic based aspiration + preference learning web app and podcast recommender</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#podrec_modal" data-toggle="modal" data-target="#podrec_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item recommender col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">Preference Learner</a></h3>
+                            <div class="meta">Tag based topic modeling + preference learner (web app) for news and podcasts</div>
+                            <div class="action"><a>View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#newsrec_modal" data-toggle="modal" data-target="#newsrec_modal"></a>
+                    </div><!--//item-inner-->
+                </div><!--//item-->                                 
+                 <div class="item health col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">ResearchSuite</a></h3>
+                            <div class="meta">Extension of ResearchKit (iOS) + ResearchStack (Android) open source SDKs</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#rsuite_modal" data-toggle="modal" data-target="#rsuite_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->  
+                 <div class="item health col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">Limbr</a></h3>
+                            <div class="meta">Suite of 7 mHealth apps for mHealth clinical trial on the managemnt of chronic lower back pain</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#limbr_modal" data-toggle="modal" data-target="#limbr_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->     
+<!--                 <div class="item assistive col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">Face Landmark Tracking</a></h3>
+                            <div class="meta">Real-time 64 point landmark tracking on iOS using Dlib</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div>   
+                        <a class="link-mask" href="#face_modal" data-toggle="modal" data-target="#face_modal"></a>              
+                    </div>
+                </div> -->                                          
+                <div class="item assistive col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">EmoTrain</a></h3>
+                            <div class="meta">Machine learning based Android & iOS expression reciprocity teaching app for children with autism</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#emotrain_modal" data-toggle="modal" data-target="#emotrain_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item assistive col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">ASSIST</a></h3>
+                            <div class="meta">Hybrid BLE-SLAM based, indoor localization and navigation software for Android </div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#assist_modal" data-toggle="modal" data-target="#assist_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item assistive frontend col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">SmartCane</a></h3>
+                            <div class="meta">Robotic white cane + Android app for indoor localization, navigation and obstacle avoidance</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#smartcane_modal" data-toggle="modal" data-target="#smartcane_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item assistive col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">EmoVIP</a></h3>
+                            <div class="meta">Real-time face and expression recognition apps (Android + iOS) for the visually impaired</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#emovip_modal" data-toggle="modal" data-target="#emovip_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->               
+                <div class="item health col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">AVA BackPain</a></h3>
+                            <div class="meta">ResearchSuite based assessment for patients with lower back pain, iOS + Android</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#backpain_modal" data-toggle="modal" data-target="#backpain_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item health col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">AVA MEDL</a></h3>
+                            <div class="meta">ResearchSuite based assessment to capture medication utilization, iOS + Android</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#medl_modal" data-toggle="modal" data-target="#medl_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                
+                <div class="item health col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">AVA PAM</a></h3>
+                            <div class="meta">ResearchSuite based one-touch assessment of mood and emotional state, iOS + Android</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#pam_modal" data-toggle="modal" data-target="#pam_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                
+                <div class="item health backend col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">AVA Ballet</a></h3>
+                            <div class="meta">ResearchSuite based assessment for patients with dance injuries, iOS + Android</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#ballet_modal" data-toggle="modal" data-target="#ballet_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                 <div class="item health backend col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">ResearchSuite Geofencing</a></h3>
+                            <div class="meta">ResearchSuite based passive location/geofence tracking</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#geofence_modal" data-toggle="modal" data-target="#geofence_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->                                
+<!--                 <div class="item frontend backend col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">Exercise tracker</a></h3>
+                            <div class="meta">Fitness-tracking iOS app, tracks + visualizes runs, steps, heart rate data from Apple HealthKit</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div>   
+                        <a class="link-mask" href="#apmo_modal" data-toggle="modal" data-target="#apmo_modal"></a>              
+                    </div>
+                </div>
+                <div class="item frontend backend col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content text-left">
+                            <h3 class="sub-title"><a href="#">MyGoodHealth</a></h3>
+                            <div class="meta">Fitness + nutrition tracking Android app, incl. calorie tracking, gamefied fitness challenges</div>
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div>   
+                        <a class="link-mask" href="#mygoodhealth_modal" data-toggle="modal" data-target="#mygoodhealth_modal"></a>              
+                    </div>
+                </div>   -->                              
+                <div class="item other col-lg-3 col-6">
+                    <div class="item-inner">
+                        <div class="content other text-left">
+                            <h3 class="sub-title"><a href="#">qTunes</a></h3>
+                            <div class="meta">Cross-platform music player and audio visualizer software (built using QT and OpenGL)</div>
+    <!--                         <br> -->
+                            <div class="action"><a href="#">View on Github</a></div>
+                        </div><!--//content-->    
+                        <a class="link-mask" href="#qtunes_modal" data-toggle="modal" data-target="#qtunes_modal"></a>              
+                    </div><!--//item-inner-->
+                </div><!--//item-->                 
+            </div><!--//item-wrapper-->
+            
+        </section><!--//section-->
+
+        <section id="publications-section" class="section">
+            <h2 class="section-title">Journal Articles</h2>
+
+            <div class="ui items">
+                <div class="item">
+                    <a class="ui tiny image">
+                        <img src="assets//images/paper5.png">
+                    </a>
+                    <div class="content">
+                        <a style="background-color: #fff" class="header" href="https://link.springer.com/epdf/10.1007/s00138-017-0904-9?author_access_token=bto92Ce2j7CbHy1YedldNve4RwlQNchNByi7wbcMAY6HXDRqb11aCcbEPk_pDGAyyOMLRX9vhEaroVsCaRvaJqTNWYSoXmfNiKL0rZFx1DoVWVyouS4P-tnAPpEDFOM1FyV4WfZNkah-FgCwpeJ_lQ%3D%3D">A Recursive Framework for Expression Recognition: From Web Images to Deep Models to Game Dataset</a>
+                        <div class="description">
+                            <p>Li,W., <strong>C. Tsangouri</strong>, F. Abtahi and Z. Zhu. <i>In Machine Vision Applications, 2018</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="ui tiny image">
+                        <img src="assets//images/paper4.png">
+                    </a>
+                    <div class="content">
+                        <a style="background-color: #fff" class="header" href="http://scholarworks.csun.edu/bitstream/handle/10211.3/202986/JTPD-2018-ID07-p62-82.pdf?sequence=1">A Hybrid Indoor Positioning System for the Blind and Visually Impaired Using Bluetooth and Google Tango</a>
+                        <div class="description">
+                            <p>Nair,V., <strong>C.Tsangouri</strong>, and B.Xiao et al <i>In Journal on Technology and Persons with Disabilities, 2018</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section id="publications-section" class="section">
+            <h2 class="section-title">Conference Proceedings</h2>
+            <div class="ui items">
+                <div class="item">
+                    <a class="ui tiny image">
+                        <img src="assets//images/paper6.png">
+                    </a>
+                    <div class="content">
+                        <a style="background-color: #fff" class="header" href="http://visionlab.engr.ccny.cuny.edu/ccvcl/assets/publications/129/paper/SmartCane-CYBER2017-final.pdf">CCNY SmartCane</a>
+                        <div class="description">
+                            <p>Chen,Q., M.Khan, <strong>C.Tsangouri</strong>, C. Yang, B. Li, J. Xiao, and Z. Zhu. <i>In Proceedings of the Conference on CYBER Technology in Automation, Control and Intelligent Systems, (CYBER), Hawaii, USA, 2017</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="ui tiny image">
+                        <img src="assets//images/paper7.png">
+                    </a>
+                    <div class="content">
+                        <a style="background-color: #fff" class="header" href="https://ieeexplore.ieee.org/document/8284067/?reload=true">An Interactive Facial-Expression Training Platform for Individuals with Autism Spectrum Disorder</a>
+                        <div class="description">
+                            <p><strong>C.Tsangouri</strong>, W. Li, Z. Zhu, F. Abtahi, and T. Ro <i>In Proceedings of IEEE MIT URTC Conference, Cambridge, USA, 2016</i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="ui tiny image">
+                        <img src="assets//images/paper8.png">
+                    </a>
+                    <div class="content">
+                        <a style="background-color: #fff" class="header" href="https://ieeexplore.ieee.org/document/7789680/">Towards an "In-The-Wild" Emotion Dataset using a Game-based Framework</a>
+                        <div class="description">
+                            <p>Li,W., F.Abtahi, and <strong>C.Tsangouri</strong> and Z. Zhu <i>In Proceedings of Conference on Computer Vision and Pattern Recognition, Affect in the Wild Workshop (CVPR), 2016</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                             
+        </section>
+        
+        
+
+        
+        <section id="contact-section" class="contact-section section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="intro">
+                <img class="profile-image" src="https://github.com/christinatsan/christinatsan.github.io/blob/master/img/me.jpg?raw=true" alt="">
+                <div class="dialog">
+ <!--                    <p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                    <p><strong>I can help with the following:</strong></p>
+                    <ul class="list-unstyled service-list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> App development with ReactJS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with AngularJS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Django/Python</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> UI development</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> UX prototyping</li>
+                    </ul> -->
+                    <p>You can reach me at christinatsangouri @ gmail.com :)</a></p>
+                    <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/christina-tsangouri-849972a8"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=ZbU7ImEAAAAJ&hl=en"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/christinatsan"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//diaplog-->
+            </div><!--//intro-->
+
+        </section><!--//section-->
+        
+    </div><!--//wrapper-->
+
+    <!-- Modal -->
+<div class="modal fade" id="newsrec_modal" tabindex="-1" role="dialog" aria-labelledby="newsrec_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">News Recommender</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px"> 
+            A hierarchical clustering and Nearest Neighbors approach is used to generate top-level categories and sub-tags from the Medium News tags dataset. The web app uses this iterative tag-based preference learning to provide personalized news recommendations. 
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/christinatsan/ImmRecStudyInterface"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="600px" src="assets/images/pref1.png">
+       </div>
+    </div>
+  </div>
+</div>
+    
+    <!-- Modal -->
+<div class="modal fade" id="podrec_modal" tabindex="-1" role="dialog" aria-labelledby="podrec_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div style="margin: 0 auto" class="modal-header">
+        <h5 class="modal-title" id="title">Podcast Recommender</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px"> 
+            Web-based app which uses preference learning and the iTunes podcast dataset to provide personalized recommendations.
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/christinatsan/ImmRecStudyInterface"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 100px" width="600px" src="assets/images/podrec1.png">
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 100px" width="600px" src="assets/images/podrec2.png">
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Modal -->
+<div class="modal fade" id="rsuite_modal" tabindex="-1" role="dialog" aria-labelledby="rsuite_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 style="padding-left: 300px" class="modal-title" id="title">ResearchSuite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            ResearchSuite is an extension of the <a style="color: #4B0082" href="http://researchkit.org">ResearchKit (iOS)</a> and <a style="color: #4B0082" href="http://researchstack.org">ResearchStack (Android)</a> open source frameworks for developing research study apps, which allow for researchers to easily develop intuitive and standardized data-collecting mobile apps.
+            <br><br>
+            ResearchSuite extends the available surveys to include adaptable visual assessments and custom active tasks and supports integration of various backend modules.
+            <br><br>
+            On a high level, the structure of a ResearchSuite app is defined by a JSON file, which specifies the survey or active task steps to be instantiated by the app. 
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/Docs"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="700px" src="assets/images/rsuite1.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="limbr_modal" tabindex="-1" role="dialog" aria-labelledby="limbr_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Limbr</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px"> 
+            <span style="color:green"><strong>Limbr</strong></span> is a compliance enhancement mHealth clinical trial that packages self-directed rehabilitation tutorial videos; personalizable visual self-report tools; health coach support; and sensor-assisted, passive activity-level tracking into a suite of smartphone-based apps for patients with CLBP. 
+            <br><br>
+            The Limbr program aims to promote adherence to the Back Rx exercise rehabilitation regimen, increase engagement in self-directed management of pain (including pain, medication and exercise tracking), and improve self-reported outcomes for pain. 
+<!--             <a href="https://github.com/christinatsan/ImmRecStudyInterface"><strong>View on Github</strong></a> -->
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="600px" src="assets/images/limbr1.png">
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="600px" src="assets/images/limbr2.png">
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="600px" src="assets/images/limbr3.png">
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="face_modal" tabindex="-1" role="dialog" aria-labelledby="face_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Face Landmark Tracking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            Real-time 64-point landmark tracking using <a color="#4B0082" href="http://dlib.net">Dlib</a> on iOS<br>
+<!--             <a style="color: #4B0082" href="https://github.com/ResearchSuite/Docs"><strong>View on Github</strong></a> -->
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="500px" src="assets/images/emotrain_interface2.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="emotrain_modal" tabindex="-1" role="dialog" aria-labelledby="emotrain_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">EmoTrain</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            EmoTrain is an interactive platform that is designed to target deficits in recognizing and labeling facial expressions and reciprocating emotionally, and to help teach these face processing skills to individuals with Autism Spectrum Disorder (ASD). EmoTrain is designed to teach individuals with ASD to recognize 7 basic human emotions (happy, sad, fear, disgust, anger, neutral, suprise) and to also perform those 7 facial expressions.
+
+            <br><br>
+
+            When playing EmoTrain, users are asked to attempt to match the images of face expressions they are presented with on the screen. The platform is able to track the user's expressions in real-time and judge if the user is performing the expressions correctly.
+
+            <br><br>
+
+            Dlib is used for real-time 64-point landmark tracking on a mobile device and OpenCV for face detection and client-side image processing. A CNN-based model is used for real-time expression recognition.
+
+            <br><br>
+
+            EmoTrain was a semi-finalist at the Standard Chartered Women + Tech4NYC Startup Competition at the Zahn Innovation Center in NYC.
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/christinatsan/EmoTrain"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="700px" src="assets/images/emotrain_interface3.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="assist_modal" tabindex="-1" role="dialog" aria-labelledby="assist_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Assist</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            ASSIST is a navigation application designed for visually impaired users, capable of tracking the position of the user within an indoor environment and providing turn-by-turn directions to a location (i.e. elevator, room 52, cubicle 7) using BLE Beacons, Tango, or hybrid infrastructure depending on infrastructure availability. <br><br>
+
+            The hybrid Beacon-Tango localization system designed is capable of highly accurate, robust, real-time multi-floor indoor localization. Bluetooth Low Energy (BLE) Beacons, which are excellent at coarse location detection are used for approximating the user's general location (i.e. floor or section within a large indoor environment). A vision-based approach, utilizing a Google Tango RGBD + 6-degrees-of-freedom visual inertial odometry enabled device (phone & phablet available), allows us the software to detect the fine location (position and orientation) of the user. The Tango device allows us to effortlesly and quickly record a 3D feature map of the environement in a compressed format, called an Area Description File (ADF), which allows for real-time re-localization within that environment. Although the Tango device was prone to small errors during the estimation of each camera position, the average error was 3 cm and the maximum error recorded was 0.4 m. A limitation experienced was the size of the ADF able to be recorded, which was found to be approximately a floor of a building. A Tango device is therefore used to record an ADF for each floor (or each section in a large building) and BLE Beacons can be used to detect the coarse location and load the corresponding ADF to be localized against for that section of the building. The software designed also has modules for being used by those without access to a Google Tango device, in which case it will only use BLE Beacon based localization. <br><br>
+
+            Furthermore, an adaptable interface is designed which allows the position of the user to be tracked on a 2D floor plan of the environment - accomplished by aligning the 3D Area Description File to the 2D floor plan. An annotation module is also included which allows for waypoints to be placed on the 2D map associated with the 3D ADF.
+            <br><br>
+<!--             <a style="color: #4B0082" href="https://github.com/ResearchSuite/Docs"><strong>View on Github</strong></a> -->
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="500px" src="assets/images/hybrid_diagram.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="smartcane_modal" tabindex="-1" role="dialog" aria-labelledby="smartcane_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">SmartCane</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            The SmartCane system is a robotic white cane and mobile device navigation software for visually impaired people. The system includes software for Google Tango devices that utilizes simultaneous localization and mapping (SLAM) to plan a path and guide a visually impaired user to waypoints within indoor environments. A control panel is mounted on the standard white cane that enables visually impaired users to communicate with the navigation software and is additionally used to provide navigation instructions via haptic feedback. Based on the motion-tracking and localization capabilities of the Google Tango, the SmartCane is able to generate a safe path to the destination waypoint indicated by the user.
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/christinatsan/SmartCane"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="500px" src="assets/images/user_smartcane.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="emovip_modal" tabindex="-1" role="dialog" aria-labelledby="emovip_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">EmoVIP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            The Emo-VIP system is a real-time facial computing framework aimed at helping visually impaired people recognize the emotions of the people in close proximity to them. The framework consists of a 
+            <br><br>
+
+            <ol>
+                <li>Face Mobile App which allows a user to capture camera feed of human faces</li>
+                <li>Web Service which handles all requests from the mobile app</li>
+                <li>Emotion Computing Server</li>
+            </ol>
+            
+
+            The Face Mobile App (available on iOS + Android), uses OpenCV to perform face detection in real-time. The emotion recognition model on the server is based on a CNN structure with an accuracy of 81%.
+            <br><br>
+            The interface is designed with a visually impaired user in mind: screen gesture recognition, audio and haptic feedback are used.
+            <br><br>
+
+            <a style="color: #4B0082" href="https://github.com/christinatsan/EmoComputing2"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="500px" src="assets/images/emovip2.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="backpain_modal" tabindex="-1" role="dialog" aria-labelledby="backpain_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">AVA BackPain</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            AVA BackPain is an adaptable visual assessment for patients with lower back pain. It uses images of Activities of Daily Living (ADLs) to improve patients' experience. The interface possesses several added benefits: wider coverage of ADLs, engaged and personalized experience, and accurate capture of individual health situations.<br><br>
+
+            AVA BackPain is built using ResearchSuite.
+
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-YADL-iOS"><strong>View on Github (iOS)</strong></a>
+            <br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-YADL-Android"><strong>View on Github (Android)</strong></a>
+
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col">
+        <img style="padding-left: 50px" width="400px" src="assets/images/avabackpain2.jpg">
+        </div>
+        <div class="col">
+        <img style="padding-right: 100px" width="400px" src="assets/images/avabackpain1.jpg">
+        </div>
+        </div>
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="medl_modal" tabindex="-1" role="dialog" aria-labelledby="medl_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">AVA MEDL</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            AVA MEDL is an <strong>A</strong>daptable <strong>V</strong>isual <strong>A</strong>ssessment for capturing patient generated information on medication and coping strategies. AVA MEDL provides users with a visual interface to assess medication utilization via sensor assisted image assessments.<br><br>
+            AVA MEDL is built using ResearchSuite.
+
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-MEDL-iOS"><strong>View on Github (iOS)</strong></a>
+
+            <br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-MEDL-Android"><strong>View on Github (Android)</strong></a>
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col">
+        <img style="padding-left: 50px" width="400px" src="assets/images/medl2.jpg">
+        </div>
+        <div class="col">
+        <img style="padding-right: 100px" width="400px" src="assets/images/medl1.jpg">
+        </div>
+        </div>
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="pam_modal" tabindex="-1" role="dialog" aria-labelledby="pam_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">AVA PAM</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            AVA PAM is an <strong>A</strong>daptable <strong>V</strong>isual <strong>A</strong>ssessment based on the Photograph Affect Meter - a one-touch assessment of mood and emotional state. Developed by JP Pollak, Phil Adams, and Geri Gay from Cornell Tech and Cornell University, it has been rigorously validated as a measure of affect, intended for frequent or expeditious use where longer form measures such as PANAS or POMS are not feasible.<br><br>
+            
+            AVA PAM is built using ResearchSuite.
+
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-PAM-iOS"><strong>View on Github (iOS)</strong></a>
+            <br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/AVA-PAM-Android"><strong>View on Github (Android)</strong></a>    
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col">
+        <img style="padding-left: 50px" width="400px" src="assets/images/pam2.jpg">
+        </div>
+        <div class="col">
+        <img style="padding-right: 100px" width="400px" src="assets/images/pam1.jpg">
+        </div>
+        </div>
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="ballet_modal" tabindex="-1" role="dialog" aria-labelledby="ballet_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">AVA Ballet</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            AVA Ballet is an <strong>A</strong>daptable <strong>V</strong>isual <strong>A</strong>ssessment. It uses images of Activities of Daily Living (ADLs) to improve patients' experience. The interface possesses several added benefits: wider coverage of ADLs, engaged and personalized experience, and accurate capture of individual health situations.<br><br>
+            
+            AVA Ballet is built using ResearchSuite.
+
+            <br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/RSuiteYADL-ios"><strong>View on Github</strong></a>
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col">
+        <img style="padding-left: 50px" width="400px" src="assets/images/avaballet1.png">
+        </div>
+        <div class="col">
+        <img style="padding-right: 100px" width="400px" src="assets/images/avaballet2.png">
+        </div>
+        </div>
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="geofence_modal" tabindex="-1" role="dialog" aria-labelledby="geofence_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">RSuite Geofencing</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            Android and iOS app that monitors exit & enter events within a radius of specified locations.<br><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/RSuiteGeofence-Android"><strong>View on Github (Android)</strong></a><br>
+            <a style="color: #4B0082" href="https://github.com/ResearchSuite/RSuite-Geofence-ios"><strong>View on Github (iOS)</strong></a>
+            
+        </div>
+        <br><br>
+        <img style="padding-right: 50px; padding-left: 50px" width="500px" src="assets/images/geofence.png">
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+
+<!--    
+<div class="modal fade" id="apmo_modal" tabindex="-1" role="dialog" aria-labelledby="apmo_modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">Fitness & Exercise Tracker</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="mygoodhealth_modal" tabindex="-1" role="dialog" aria-labelledby="mygoodhealth_modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">MyGoodHealth</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    <!-- Modal -->
+<div class="modal fade" id="qtunes_modal" tabindex="-1" role="dialog" aria-labelledby="qtunes_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="title">qTunes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body">
+        <div style="padding-right: 50px; padding-left: 50px; padding-top: 20px"> 
+            QTunes is a music player which has many of the basic features of the popular music player iTunes. The main components QTunes features are mp3 playing capabilities, a cover flow, and a visualizer.<br><br>
+<!--             <a href="https://github.com/ResearchSuite/Docs"><strong>View on Github</strong></a>
+ -->        </div>
+        <br><br>
+<!--         <div class="row">
+        <div class="col"> -->
+        <img style="padding-left: 50px" width="500px" src="assets/images/qtunes3.png">
+<!--         </div>
+        <div class="col"> -->
+        <img style="padding-left: 50px" width="500px" src="assets/images/qtunes2.png">
+<!--         </div>
+        </div> -->
+        <br><br>
+       </div>
+    </div>
+  </div>
+</div>
+    
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>  
+
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>     
+    
+
+</body>
+</html> 
+
